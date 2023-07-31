@@ -1,0 +1,80 @@
+  /* body {
+    margin: auto;
+  } */
+
+  
+  
+  #gameCanvas {
+    position: relative;
+    text-align:center;
+    margin: auto;
+    width: 1024px;
+    height: 640px;
+  }
+
+  .onScreenText{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    text-align:left;
+    background-color: black;
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: 5px;
+    border-color: white;
+    border-radius: 2px;
+    border-style: solid;
+    user-select: none;
+    font-family: 'EB Garamond', serif;
+  }
+
+  .startButton {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+
+  .infoButton {
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+
+  .closeInfoButton {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  .mainMenuButton {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  .button {
+    width: 100px;
+    height: 25px;
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    background-color: black;
+    border-style: solid;
+    margin: 4px 2px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
